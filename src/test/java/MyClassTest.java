@@ -13,5 +13,6 @@ public class MyClassTest {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://demo.guru99.com/v4/");
+		driver.close();
 	}
 }
