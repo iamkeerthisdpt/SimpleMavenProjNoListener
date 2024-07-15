@@ -18,8 +18,9 @@ public class MyClassTest {
        		 System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
 
        		 // Set path to Chrome binary
-        	ChromeOptions options = new ChromeOptions();
+		ChromeOptions options = new ChromeOptions();
         	options.setBinary("/usr/bin/google-chrome");
+        	options.addArguments("--headless"); // Run Chrome in headless mode
 		ChromeDriver driver = new ChromeDriver(options);
 		//WebDriver driver = new ChromeDriver();
 		//keerthi
