@@ -15,7 +15,7 @@ public class MyClassTest {
 
 		//keerthi
 		// Set path to Chromedriver binary
-       		 System.setProperty("webdriver.chrome.driver", "/path/to/chromedriver");
+       		 System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
 
        		 // Set path to Chrome binary
         	ChromeOptions options = new ChromeOptions();
