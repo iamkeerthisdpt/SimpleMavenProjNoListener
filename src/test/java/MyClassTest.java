@@ -20,8 +20,10 @@ public class MyClassTest {
        		 // Set path to Chrome binary
         	ChromeOptions options = new ChromeOptions();
         	options.setBinary("/usr/bin/google-chrome");
+		ChromeDriver driver = new ChromeDriver(options);
+		//WebDriver driver = new ChromeDriver();
 		//keerthi
-		WebDriver driver = new ChromeDriver();
+		
 		driver.manage().window().maximize();
 		driver.get("https://demo.guru99.com/v4/");
 		driver.close();
